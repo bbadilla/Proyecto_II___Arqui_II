@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Bryan/Desktop/Proyecto_Arqui2/simulation/modelsim
+vdata_memory
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1593755545
+!i10b 1
+!s100 gG`630RQf9F=hA4eX4nNh2
+IBIFT@PRN`SVk[LS2MJXOc1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 data_memory_sv_unit
+S1
+R0
+w1593754443
+8C:/Users/Bryan/Desktop/Proyecto_Arqui2/data_memory.sv
+FC:/Users/Bryan/Desktop/Proyecto_Arqui2/data_memory.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1593755545.000000
+!s107 C:/Users/Bryan/Desktop/Proyecto_Arqui2/data_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/Proyecto_Arqui2|C:/Users/Bryan/Desktop/Proyecto_Arqui2/data_memory.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/Bryan/Desktop/Proyecto_Arqui2
+Z8 tCvgOpt 0
+vhistogram
+R1
+R2
+!i10b 1
+!s100 S?e[@6SWdaX_N`[SeJgU21
+IX?79IK_gPbXNl15^NhnKE3
+R3
+!s105 histogram_sv_unit
+S1
+R0
+w1593755431
+8C:/Users/Bryan/Desktop/Proyecto_Arqui2/histogram.sv
+FC:/Users/Bryan/Desktop/Proyecto_Arqui2/histogram.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Bryan/Desktop/Proyecto_Arqui2/histogram.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/Proyecto_Arqui2|C:/Users/Bryan/Desktop/Proyecto_Arqui2/histogram.sv|
+!i113 1
+R6
+R7
+R8
