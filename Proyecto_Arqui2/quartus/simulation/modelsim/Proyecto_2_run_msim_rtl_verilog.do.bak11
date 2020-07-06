@@ -14,4 +14,7 @@ vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/Proyecto_Arqui2 {C:/Users/Bry
 vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/Proyecto_Arqui2 {C:/Users/Bryan/Desktop/Proyecto_Arqui2/DataPath.sv}
 vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/Proyecto_Arqui2 {C:/Users/Bryan/Desktop/Proyecto_Arqui2/Add_pc.sv}
 vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/Proyecto_Arqui2 {C:/Users/Bryan/Desktop/Proyecto_Arqui2/test.sv}
+vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/Proyecto_Arqui2 {C:/Users/Bryan/Desktop/Proyecto_Arqui2/mux_2_x_1.sv}
+vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/Proyecto_Arqui2 {C:/Users/Bryan/Desktop/Proyecto_Arqui2/mux_4_x_1.sv}
+vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/Proyecto_Arqui2 {C:/Users/Bryan/Desktop/Proyecto_Arqui2/Add_param.sv}
 
