@@ -1,5 +1,5 @@
 Analysis & Elaboration report for Proyecto_2
-Mon Jul 06 00:03:17 2020
+Tue Jul 07 02:36:56 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -9,22 +9,9 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   1. Legal Notice
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
-  4. Parameter Settings for User Entity Instance: DataPath:DUT|flip_flop_D:ff
-  5. Parameter Settings for User Entity Instance: DataPath:DUT|Add_param:Add_p
-  6. Parameter Settings for User Entity Instance: DataPath:DUT|mux_4_x_1:mux_4_1
-  7. Parameter Settings for User Entity Instance: DataPath:DUT|mux_4_x_1:mux_4_1|mux_2_x_1:mux0
-  8. Parameter Settings for User Entity Instance: DataPath:DUT|mux_4_x_1:mux_4_1|mux_2_x_1:mux1
-  9. Parameter Settings for User Entity Instance: DataPath:DUT|mux_4_x_1:mux_4_1|mux_2_x_1:mux2
- 10. Parameter Settings for User Entity Instance: DataPath:DUT|mux_2_x_1:mux_2_1
- 11. Analysis & Elaboration Settings
- 12. Port Connectivity Checks: "DataPath:DUT|mux_4_x_1:mux_4_1"
- 13. Port Connectivity Checks: "DataPath:DUT|Add:Add3"
- 14. Port Connectivity Checks: "DataPath:DUT|register_file:reg_file"
- 15. Port Connectivity Checks: "DataPath:DUT|flip_flop_D:ff"
- 16. Port Connectivity Checks: "DataPath:DUT|Add_pc:Add2"
- 17. Port Connectivity Checks: "DataPath:DUT|Add_pc:Add1"
- 18. Port Connectivity Checks: "DataPath:DUT"
- 19. Analysis & Elaboration Messages
+  4. Analysis & Elaboration Settings
+  5. Port Connectivity Checks: "data_memory:DUT"
+  6. Analysis & Elaboration Messages
 
 
 
@@ -50,10 +37,10 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Mon Jul 06 00:03:17 2020       ;
+; Analysis & Elaboration Status ; Successful - Tue Jul 07 02:36:56 2020       ;
 ; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                 ; Proyecto_2                                  ;
-; Top-level Entity Name         ; test                                        ;
+; Top-level Entity Name         ; histogram                                   ;
 ; Family                        ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
 ; Total registers               ; N/A until Partition Merge                   ;
@@ -81,83 +68,13 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: DataPath:DUT|flip_flop_D:ff ;
-+----------------+-------+-------------------------------------------------+
-; Parameter Name ; Value ; Type                                            ;
-+----------------+-------+-------------------------------------------------+
-; N              ; 18    ; Signed Integer                                  ;
-+----------------+-------+-------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+---------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: DataPath:DUT|Add_param:Add_p ;
-+----------------+-------+--------------------------------------------------+
-; Parameter Name ; Value ; Type                                             ;
-+----------------+-------+--------------------------------------------------+
-; N              ; 15    ; Signed Integer                                   ;
-+----------------+-------+--------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: DataPath:DUT|mux_4_x_1:mux_4_1 ;
-+----------------+-------+----------------------------------------------------+
-; Parameter Name ; Value ; Type                                               ;
-+----------------+-------+----------------------------------------------------+
-; N              ; 128   ; Signed Integer                                     ;
-+----------------+-------+----------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+--------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: DataPath:DUT|mux_4_x_1:mux_4_1|mux_2_x_1:mux0 ;
-+----------------+-------+-------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                              ;
-+----------------+-------+-------------------------------------------------------------------+
-; N              ; 128   ; Signed Integer                                                    ;
-+----------------+-------+-------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+--------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: DataPath:DUT|mux_4_x_1:mux_4_1|mux_2_x_1:mux1 ;
-+----------------+-------+-------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                              ;
-+----------------+-------+-------------------------------------------------------------------+
-; N              ; 128   ; Signed Integer                                                    ;
-+----------------+-------+-------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+--------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: DataPath:DUT|mux_4_x_1:mux_4_1|mux_2_x_1:mux2 ;
-+----------------+-------+-------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                              ;
-+----------------+-------+-------------------------------------------------------------------+
-; N              ; 128   ; Signed Integer                                                    ;
-+----------------+-------+-------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: DataPath:DUT|mux_2_x_1:mux_2_1 ;
-+----------------+-------+----------------------------------------------------+
-; Parameter Name ; Value ; Type                                               ;
-+----------------+-------+----------------------------------------------------+
-; N              ; 18    ; Signed Integer                                     ;
-+----------------+-------+----------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +---------------------------------------------------------------------------------------------------------------------------+
 ; Analysis & Elaboration Settings                                                                                           ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
-; Top-level entity name                                                           ; test               ; Proyecto_2         ;
+; Top-level entity name                                                           ; histogram          ; Proyecto_2         ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -238,75 +155,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------------------------+
-; Port Connectivity Checks: "DataPath:DUT|mux_4_x_1:mux_4_1" ;
-+------------+-------+----------+----------------------------+
-; Port       ; Type  ; Severity ; Details                    ;
-+------------+-------+----------+----------------------------+
-; c[127..15] ; Input ; Info     ; Stuck at GND               ;
-; d          ; Input ; Info     ; Stuck at GND               ;
-+------------+-------+----------+----------------------------+
-
-
-+---------------------------------------------------+
-; Port Connectivity Checks: "DataPath:DUT|Add:Add3" ;
-+------+-------+----------+-------------------------+
-; Port ; Type  ; Severity ; Details                 ;
-+------+-------+----------+-------------------------+
-; b    ; Input ; Info     ; Stuck at GND            ;
-+------+-------+----------+-------------------------+
-
-
-+------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "DataPath:DUT|register_file:reg_file"                                                        ;
-+--------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port         ; Type   ; Severity ; Details                                                                             ;
-+--------------+--------+----------+-------------------------------------------------------------------------------------+
-; r15[127..18] ; Input  ; Info     ; Stuck at GND                                                                        ;
-; rd2          ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+--------------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "DataPath:DUT|flip_flop_D:ff"                                                                                                                                                         ;
-+---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
-+---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; enb     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; enb[-1] ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
-+---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+------------------------------------------------------+
-; Port Connectivity Checks: "DataPath:DUT|Add_pc:Add2" ;
-+----------+-------+----------+------------------------+
-; Port     ; Type  ; Severity ; Details                ;
-+----------+-------+----------+------------------------+
-; b[17..3] ; Input ; Info     ; Stuck at GND           ;
-; b[1..0]  ; Input ; Info     ; Stuck at GND           ;
-; b[2]     ; Input ; Info     ; Stuck at VCC           ;
-+----------+-------+----------+------------------------+
-
-
-+------------------------------------------------------+
-; Port Connectivity Checks: "DataPath:DUT|Add_pc:Add1" ;
-+----------+-------+----------+------------------------+
-; Port     ; Type  ; Severity ; Details                ;
-+----------+-------+----------+------------------------+
-; b[17..3] ; Input ; Info     ; Stuck at GND           ;
-; b[1..0]  ; Input ; Info     ; Stuck at GND           ;
-; b[2]     ; Input ; Info     ; Stuck at VCC           ;
-+----------+-------+----------+------------------------+
-
-
 +----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "DataPath:DUT"                                                                       ;
+; Port Connectivity Checks: "data_memory:DUT"                                                                    ;
 +------+--------+----------+-------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                             ;
 +------+--------+----------+-------------------------------------------------------------------------------------+
-; clk  ; Input  ; Info     ; Stuck at GND                                                                        ;
-; mem  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; pc   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; rd   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +------+--------+----------+-------------------------------------------------------------------------------------+
 
 
@@ -316,64 +170,72 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Mon Jul 06 00:02:36 2020
+    Info: Processing started: Tue Jul 07 02:36:16 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Proyecto_2 -c Proyecto_2 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file flip_flop_d_neg.sv
+    Info (12023): Found entity 1: flip_flop_D_neg File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/flip_flop_D_neg.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file filetest.sv
+    Info (12023): Found entity 1: filetest File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/filetest.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file extend_test.sv
+    Info (12023): Found entity 1: extend_test File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/extend_test.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file cond_logic.sv
+    Info (12023): Found entity 1: cond_logic File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/cond_logic.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file cond_check.sv
+    Info (12023): Found entity 1: cond_check File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/cond_check.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu_test.sv
+    Info (12023): Found entity 1: alu_test File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/alu_test.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu_deco.sv
+    Info (12023): Found entity 1: alu_deco File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/alu_deco.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu.sv
+    Info (12023): Found entity 1: alu File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/alu.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file ram/original_image.v
+    Info (12023): Found entity 1: original_image File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/RAM/original_image.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file register_file.sv
-    Info (12023): Found entity 1: register_file File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/register_file.sv Line: 1
+    Info (12023): Found entity 1: register_file File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/register_file.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file instruction_memory.sv
-    Info (12023): Found entity 1: instruction_memory File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/instruction_memory.sv Line: 1
+    Info (12023): Found entity 1: instruction_memory File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/instruction_memory.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file data_memory.sv
-    Info (12023): Found entity 1: data_memory File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/data_memory.sv Line: 1
+    Info (12023): Found entity 1: data_memory File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/data_memory.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file histogram.sv
-    Info (12023): Found entity 1: histogram File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/histogram.sv Line: 1
+    Info (12023): Found entity 1: histogram File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/histogram.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file add.sv
-    Info (12023): Found entity 1: Add File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/Add.sv Line: 1
+    Info (12023): Found entity 1: Add File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file control_unit.sv
-    Info (12023): Found entity 1: Control_Unit File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/Control_Unit.sv Line: 1
+    Info (12023): Found entity 1: Control_Unit File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Control_Unit.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file flip_flop_d.sv
-    Info (12023): Found entity 1: flip_flop_D File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/flip_flop_D.sv Line: 1
+    Info (12023): Found entity 1: flip_flop_D File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/flip_flop_D.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file datapath.sv
-    Info (12023): Found entity 1: DataPath File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/DataPath.sv Line: 1
+    Info (12023): Found entity 1: DataPath File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/DataPath.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file add_pc.sv
-    Info (12023): Found entity 1: Add_pc File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/Add_pc.sv Line: 1
+    Info (12023): Found entity 1: Add_pc File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_pc.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file test.sv
-    Info (12023): Found entity 1: test File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/test.sv Line: 1
+    Info (12023): Found entity 1: test File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/test.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file mux_2_x_1.sv
-    Info (12023): Found entity 1: mux_2_x_1 File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/mux_2_x_1.sv Line: 1
+    Info (12023): Found entity 1: mux_2_x_1 File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/mux_2_x_1.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux_4_x_1.sv
-    Info (12023): Found entity 1: mux_4_x_1 File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/mux_4_x_1.sv Line: 1
+    Info (12023): Found entity 1: mux_4_x_1 File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/mux_4_x_1.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file add_param.sv
-    Info (12023): Found entity 1: Add_param File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/Add_param.sv Line: 1
-Info (12127): Elaborating entity "test" for the top level hierarchy
-Info (12128): Elaborating entity "DataPath" for hierarchy "DataPath:DUT" File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/test.sv Line: 12
-Info (12128): Elaborating entity "Add_pc" for hierarchy "DataPath:DUT|Add_pc:Add1" File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/DataPath.sv Line: 10
-Info (12128): Elaborating entity "flip_flop_D" for hierarchy "DataPath:DUT|flip_flop_D:ff" File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/DataPath.sv Line: 14
-Info (12128): Elaborating entity "instruction_memory" for hierarchy "DataPath:DUT|instruction_memory:instr_mem" File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/DataPath.sv Line: 16
-Warning (10030): Net "memory[100..4]" at instruction_memory.sv(4) has no driver or initial value, using a default initial value '0' File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/instruction_memory.sv Line: 4
-Info (12128): Elaborating entity "register_file" for hierarchy "DataPath:DUT|register_file:reg_file" File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/DataPath.sv Line: 19
-Info (12128): Elaborating entity "Add" for hierarchy "DataPath:DUT|Add:Add3" File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/DataPath.sv Line: 21
-Info (12128): Elaborating entity "data_memory" for hierarchy "DataPath:DUT|data_memory:data_m" File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/DataPath.sv Line: 23
-Warning (10855): Verilog HDL warning at data_memory.sv(13): initial value for variable RAM should be constant File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/data_memory.sv Line: 13
-Warning (10230): Verilog HDL assignment warning at data_memory.sv(31): truncated value with size 32 to match size of target (16) File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/data_memory.sv Line: 31
-Warning (10230): Verilog HDL assignment warning at data_memory.sv(32): truncated value with size 32 to match size of target (16) File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/data_memory.sv Line: 32
-Warning (10230): Verilog HDL assignment warning at data_memory.sv(33): truncated value with size 32 to match size of target (16) File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/data_memory.sv Line: 33
-Warning (10230): Verilog HDL assignment warning at data_memory.sv(34): truncated value with size 32 to match size of target (16) File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/data_memory.sv Line: 34
-Warning (10230): Verilog HDL assignment warning at data_memory.sv(35): truncated value with size 32 to match size of target (16) File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/data_memory.sv Line: 35
-Warning (10230): Verilog HDL assignment warning at data_memory.sv(36): truncated value with size 32 to match size of target (16) File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/data_memory.sv Line: 36
-Warning (10230): Verilog HDL assignment warning at data_memory.sv(37): truncated value with size 32 to match size of target (16) File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/data_memory.sv Line: 37
-Warning (10230): Verilog HDL assignment warning at data_memory.sv(38): truncated value with size 32 to match size of target (16) File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/data_memory.sv Line: 38
-Info (12128): Elaborating entity "Control_Unit" for hierarchy "DataPath:DUT|Control_Unit:CU" File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/DataPath.sv Line: 25
-Info (12128): Elaborating entity "Add_param" for hierarchy "DataPath:DUT|Add_param:Add_p" File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/DataPath.sv Line: 29
-Info (12128): Elaborating entity "mux_4_x_1" for hierarchy "DataPath:DUT|mux_4_x_1:mux_4_1" File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/DataPath.sv Line: 31
-Info (12128): Elaborating entity "mux_2_x_1" for hierarchy "DataPath:DUT|mux_4_x_1:mux_4_1|mux_2_x_1:mux0" File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/mux_4_x_1.sv Line: 7
-Info (12128): Elaborating entity "mux_2_x_1" for hierarchy "DataPath:DUT|mux_2_x_1:mux_2_1" File: C:/Users/Bryan/Desktop/Proyecto_Arqui2/DataPath.sv Line: 33
-Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 12 warnings
-    Info: Peak virtual memory: 4822 megabytes
-    Info: Processing ended: Mon Jul 06 00:03:17 2020
-    Info: Elapsed time: 00:00:41
-    Info: Total CPU time (on all processors): 00:01:12
+    Info (12023): Found entity 1: Add_param File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_param.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file deco_hist.sv
+    Info (12023): Found entity 1: deco_hist File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/deco_hist.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file add_8.sv
+    Info (12023): Found entity 1: Add_8 File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_8.sv Line: 1
+Info (12127): Elaborating entity "histogram" for the top level hierarchy
+Warning (10755): Verilog HDL warning at histogram.sv(8): assignments to wrclk create a combinational loop File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/histogram.sv Line: 8
+Warning (10755): Verilog HDL warning at histogram.sv(8): assignments to wd create a combinational loop File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/histogram.sv Line: 8
+Info (12128): Elaborating entity "data_memory" for hierarchy "data_memory:DUT" File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/histogram.sv Line: 14
+Warning (10855): Verilog HDL warning at data_memory.sv(18): initial value for variable RAM should be constant File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/data_memory.sv Line: 18
+Info (12128): Elaborating entity "deco_hist" for hierarchy "data_memory:DUT|deco_hist:hola[0].deco" File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/data_memory.sv Line: 46
+Info (12128): Elaborating entity "Add_8" for hierarchy "data_memory:DUT|Add_8:hola3[0].add_deco" File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/data_memory.sv Line: 54
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "wrclk" is missing source, defaulting to GND File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/histogram.sv Line: 4
+    Warning (12110): Net "wd" is missing source, defaulting to GND File: C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/histogram.sv Line: 4
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 7 warnings
+    Info: Peak virtual memory: 4812 megabytes
+    Info: Processing ended: Tue Jul 07 02:36:56 2020
+    Info: Elapsed time: 00:00:40
+    Info: Total CPU time (on all processors): 00:01:01
 
 

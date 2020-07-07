@@ -12,14 +12,14 @@ module Control_Unit(input logic clk, reset, flag, input logic [5:0] a,
 	
 	assign no_write = a[2] & ~a[1];
 	
-	assign mem_write = ~a[0] & mem;
+	assign mem_write = ~a[0] & mem | a[0] & data;
 	assign reg_write = (a[0] & mem) | (~no_write & data);
 	
 	assign add1_sel = ~a[2] & a[1] & data;
 	
 	alu_deco deco(a[2:1], alu_control);
 	
-	assign flag_write_previous = a[0] & no_write;
+	assign flag_write_previous = data & no_write;
 	
 	cond_logic cd(clk, reset, a[5], flag_write_previous, flag, pc, pc_src);
 	

@@ -1,5 +1,5 @@
 Flow report for Proyecto_2
-Mon Jul 06 00:03:17 2020
+Tue Jul 07 02:36:56 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,10 +40,10 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Mon Jul 06 00:03:17 2020       ;
+; Flow Status                 ; Successful - Tue Jul 07 02:36:56 2020       ;
 ; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name               ; Proyecto_2                                  ;
-; Top-level Entity Name       ; test                                        ;
+; Top-level Entity Name       ; histogram                                   ;
 ; Family                      ; Cyclone V                                   ;
 ; Device                      ; 5CSEMA5F31C6                                ;
 ; Timing Models               ; Final                                       ;
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 07/06/2020 00:02:38 ;
+; Start date & time ; 07/07/2020 02:36:18 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Proyecto_2          ;
 +-------------------+---------------------+
@@ -73,18 +73,18 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 272897461074061.159401535708708        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 272897461074061.159411097700680        ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Systemverilog Hdl                      ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (SystemVerilog)        ; <None>        ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --             ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; test        ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; test        ; Top            ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; test        ; Top            ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; histogram   ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; histogram   ; Top            ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; histogram   ; Top            ;
 ; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --          ; --             ;
 ; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --             ;
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --             ;
-; TOP_LEVEL_ENTITY                    ; test                                   ; Proyecto_2    ; --          ; --             ;
+; TOP_LEVEL_ENTITY                    ; histogram                              ; Proyecto_2    ; --          ; --             ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 
 
@@ -93,8 +93,8 @@ refer to the applicable agreement for further details.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:41     ; 1.0                     ; 4822 MB             ; 00:01:12                           ;
-; Total                  ; 00:00:41     ; --                      ; --                  ; 00:01:12                           ;
+; Analysis & Elaboration ; 00:00:40     ; 1.0                     ; 4812 MB             ; 00:01:01                           ;
+; Total                  ; 00:00:40     ; --                      ; --                  ; 00:01:01                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

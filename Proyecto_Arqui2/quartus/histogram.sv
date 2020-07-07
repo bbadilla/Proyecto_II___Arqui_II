@@ -15,10 +15,9 @@ module histogram();
 
 	initial begin
 		 wrclk = 0; wd = 1; 
-		 data = 128'h0;#5;
 		 wrclk = 1;
 		 wrclk = 0;
-		 data = 128'h000C000F00050001000B00030008000A;#5;
+		 data = 128'hffffffffffffffff0000000000000000;#5;
 		 
 		 wd = 0;
 		 wrclk = 1;

@@ -1,13 +1,16 @@
 module extend_test();
 
-	logic [17:0] in;
-	logic [7:0] out;
+	logic [7:0] in;
+	logic [255:0] out;
 	
-	test DUT(in, out);
+	deco_hist DUT(in, out);
 	
 	initial begin
-	in = 18'b111111111111111111; #10;
-	$display("in = %h, out = %h", in, out);
+	in = 8'h0a; #10;
+	$display("in = %h, out = %b", in, out);
+	
+	in = 8'h0b; #10;
+	$display("in = %h, out = %b", in, out);
 	
 	end
 
