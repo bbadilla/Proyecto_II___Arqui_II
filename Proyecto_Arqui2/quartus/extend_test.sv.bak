@@ -1,13 +1,12 @@
 module extend_test();
 
-	logic [17:0] in;
-	logic [7:0] out;
+	logic [63:0] in, out;
 	
-	test DUT(in, out);
+	extend DUT(imm, imm_src, imm_ext);
 	
 	initial begin
-	in = 18'b111111111111111111; #10;
-	$display("in = %h, out = %h", in, out);
+	imm = 24'h822D05; imm_src = 2'b00; #10;
+	$display("imm = %b, imm_src = %b, imm_ext = %b", imm, imm_src, imm_ext);
 	
 	end
 

@@ -9,7 +9,7 @@ module acumulator(input logic clk, we, input logic [15:0] ram[255:0], output log
 	generate
 		for(i = 1; i < 255; i++)
 		begin:ac
-			Add_param #(16) add_ac(adder_out[i-1], ram[i+1], adder_out[i]);
+			Add_param #(16) add_ac(adder_out[i - 1], ram[i + 1], adder_out[i]);
 		end
 	endgenerate
 	
@@ -17,7 +17,6 @@ module acumulator(input logic clk, we, input logic [15:0] ram[255:0], output log
 		 for(i = 0; i < 256; i++)
 		 begin: test
 			  initial
-			  //always@(posedge CLK50)
 			  begin
 					mem[i][15:0] = 16'b0;
 			  end

@@ -1,0 +1,34 @@
+module tb;
+  int    fd;       // Variable for file descriptor handle
+  string line;       // String value read from the file
+ 
+  initial begin
+ 
+    // 1. Lets first open a new file and write some contents into it
+    fd = $fopen ("trial", "w");
+ 
+    // Write each index in the for loop to the file using $fdisplay
+    // File handle should be the first argument
+    for (int i = 0; i < 5; i++) begin
+      $fdisplay (fd, "Iteration = %0d", i);
+    end
+ 
+    // Close this file handle
+    $fclose(fd);
+ 
+ 
+    // 2. Let us now read back the data we wrote in the previous step
+    fd = $fopen ("trial", "r");
+ 
+    // Use $fgets to read a single line into variable "line"
+    $fgets(line, fd);
+    $display ("Line read : %s", line);
+ 
+    // Get the next line and display
+    $fgets(line, fd);
+    $display ("Line read : %s", line);
+ 
+    // Close this file handle
+    $fclose(fd);
+  end
+endmodule

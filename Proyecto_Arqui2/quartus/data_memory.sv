@@ -6,8 +6,8 @@ module data_memory(input logic clk, we,
   logic [255:0] deco_out [7:0];
   logic [7:0] adder_in [255:0]; 
   logic [3:0] add_8_out [255:0];
-  logic [7:0] up [7:0], down[7:0];
   logic [7:0] b [7:0];
+  
   assign rd = RAM;
   
   genvar i;
@@ -15,14 +15,12 @@ module data_memory(input logic clk, we,
 		 for(i = 0; i < 256; i++)
 		 begin: test
 			  initial
-			  //always@(posedge CLK50)
 			  begin
 					RAM[i][15:0] = 16'b0;
 			  end
 		 end
 	endgenerate
-  
-
+	
   assign b[0] = a[7:0];
   assign b[1] = a[23:16];
   assign b[2] = a[39:32];
