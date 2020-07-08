@@ -1,7 +1,7 @@
-Analysis & Elaboration Status : Successful - Tue Jul 07 02:36:56 2020
+Analysis & Elaboration Status : Successful - Wed Jul 08 02:03:34 2020
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : Proyecto_2
-Top-level Entity Name : histogram
+Top-level Entity Name : test_ac
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A until Partition Merge
 Total registers : N/A until Partition Merge

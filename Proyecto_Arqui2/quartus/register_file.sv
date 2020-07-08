@@ -16,7 +16,7 @@ module register_file(input logic clk, rst,
 			begin
 				rf[0] <= 128'h0;
 				rf[14] <= 128'b0;
-				rf[13] <= 128'hA;
+				rf[13] <= 128'h00000000000000000000000000002000;
 			end
 		else 
 			begin

@@ -1,6 +1,6 @@
 module data_memory(input logic clk, we,
 						 input logic [127:0] a,
-						 output logic [127:0] rd);
+						 output logic [15:0] rd [255:0]);
 						 
   logic [15:0] RAM [255:0];
   logic [255:0] deco_out [7:0];
@@ -8,6 +8,7 @@ module data_memory(input logic clk, we,
   logic [3:0] add_8_out [255:0];
   logic [7:0] up [7:0], down[7:0];
   logic [7:0] b [7:0];
+  assign rd = RAM;
   
   genvar i;
 	generate
@@ -21,15 +22,7 @@ module data_memory(input logic clk, we,
 		 end
 	endgenerate
   
-  assign rd[15:0] = RAM[a[15:0]];
-  assign rd[31:16] = RAM[a[31:16]];
-  assign rd[47:32] = RAM[a[47:32]];
-  assign rd[63:48] = RAM[a[63:48]];
-  assign rd[79:64] = RAM[a[79:64]];
-  assign rd[95:80] = RAM[a[95:80]];
-  assign rd[111:96] = RAM[a[111:96]];
-  assign rd[127:112] = RAM[a[127:112]];
-  
+
   assign b[0] = a[7:0];
   assign b[1] = a[23:16];
   assign b[2] = a[39:32];
