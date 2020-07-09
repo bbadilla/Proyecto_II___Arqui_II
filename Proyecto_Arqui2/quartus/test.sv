@@ -2,7 +2,7 @@
 module test();
 
 	logic [17:0] pc;
-	logic clk, reset;
+	logic clk, reset; 
 	
 	always begin
 		 clk <= 1; # 5; clk <= 0; # 5;

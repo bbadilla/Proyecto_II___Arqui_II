@@ -5,18 +5,15 @@ module register_file(input logic clk, rst,
 							output logic [127:0] rd1, rd2);
 							
   logic [127:0] rf[14:0];
-  
-//  initial begin
-//		rf[0] = 128'h000C000F00050001000B00030008000A;
-//  end
 	
   always_ff @(posedge rst, negedge clk)
 	 begin
 		if (rst)
 			begin
-				rf[0] <= 128'h0;
+				rf[0] <= 128'hfafafafafafafafafafafafafafafafa;
 				rf[14] <= 128'b0;
-				rf[13] <= 128'h00000000000000000000000000002000;
+				rf[13] <= 128'h00000000000000000000000000002000; 
+
 			end
 		else 
 			begin

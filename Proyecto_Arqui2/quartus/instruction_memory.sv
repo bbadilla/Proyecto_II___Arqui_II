@@ -19,7 +19,8 @@ module instruction_memory(input logic [17:0] a,
   assign memory[5] = 18'b000100000011101101; // CMP
   assign memory[6] = 18'b110000000000000000; // BEQ
   assign memory[7] = 18'b010111111111011100; // B
-  assign memory[8] = 18'b000100000011101101; // CMP
+  assign memory[8] = 18'b000000111000000000; // RST
+  assign memory[9] = 18'b000110000000000000; // SHFT
   
   
   assign rd = memory[a[17:2]]; // word aligned
