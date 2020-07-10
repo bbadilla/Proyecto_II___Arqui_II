@@ -10,210 +10,220 @@
 # Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/RAM {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/RAM/original_image.v}
+# vlog -vlog01compat -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus/RAM {C:/Programas/ArquiII/Proyecto2/quartus/RAM/new_image.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:40 on Jul 09,2020
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/RAM" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/RAM/original_image.v 
+# Start time: 19:25:26 on Jul 09,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus/RAM" C:/Programas/ArquiII/Proyecto2/quartus/RAM/new_image.v 
+# -- Compiling module new_image
+# 
+# Top level modules:
+# 	new_image
+# End time: 19:25:26 on Jul 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus/RAM {C:/Programas/ArquiII/Proyecto2/quartus/RAM/original_image.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:26 on Jul 09,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus/RAM" C:/Programas/ArquiII/Proyecto2/quartus/RAM/original_image.v 
 # -- Compiling module original_image
 # 
 # Top level modules:
 # 	original_image
-# End time: 00:09:40 on Jul 09,2020, Elapsed time: 0:00:00
+# End time: 19:25:26 on Jul 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/deco_hist.sv}
+# vlog -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus {C:/Programas/ArquiII/Proyecto2/quartus/shifts.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:41 on Jul 09,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/deco_hist.sv 
-# -- Compiling module deco_hist
-# 
-# Top level modules:
-# 	deco_hist
-# End time: 00:09:41 on Jul 09,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_8.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:41 on Jul 09,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_8.sv 
-# -- Compiling module Add_8
-# 
-# Top level modules:
-# 	Add_8
-# End time: 00:09:41 on Jul 09,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/register_file.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:41 on Jul 09,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/register_file.sv 
-# -- Compiling module register_file
-# 
-# Top level modules:
-# 	register_file
-# End time: 00:09:42 on Jul 09,2020, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/mux_4_x_1.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:42 on Jul 09,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/mux_4_x_1.sv 
-# -- Compiling module mux_4_x_1
-# 
-# Top level modules:
-# 	mux_4_x_1
-# End time: 00:09:42 on Jul 09,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/mux_2_x_1.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:42 on Jul 09,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/mux_2_x_1.sv 
-# -- Compiling module mux_2_x_1
-# 
-# Top level modules:
-# 	mux_2_x_1
-# End time: 00:09:42 on Jul 09,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/instruction_memory.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:42 on Jul 09,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/instruction_memory.sv 
-# -- Compiling module instruction_memory
-# 
-# Top level modules:
-# 	instruction_memory
-# End time: 00:09:42 on Jul 09,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/flip_flop_D.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:42 on Jul 09,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/flip_flop_D.sv 
-# -- Compiling module flip_flop_D
-# 
-# Top level modules:
-# 	flip_flop_D
-# End time: 00:09:43 on Jul 09,2020, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/DataPath.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:43 on Jul 09,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/DataPath.sv 
-# -- Compiling module DataPath
-# 
-# Top level modules:
-# 	DataPath
-# End time: 00:09:43 on Jul 09,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Control_Unit.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:43 on Jul 09,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Control_Unit.sv 
-# -- Compiling module Control_Unit
-# 
-# Top level modules:
-# 	Control_Unit
-# End time: 00:09:43 on Jul 09,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_pc.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:43 on Jul 09,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_pc.sv 
-# -- Compiling module Add_pc
-# 
-# Top level modules:
-# 	Add_pc
-# End time: 00:09:43 on Jul 09,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_param.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:44 on Jul 09,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_param.sv 
-# -- Compiling module Add_param
-# 
-# Top level modules:
-# 	Add_param
-# End time: 00:09:44 on Jul 09,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/data_memory.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:44 on Jul 09,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/data_memory.sv 
-# -- Compiling module data_memory
-# 
-# Top level modules:
-# 	data_memory
-# End time: 00:09:44 on Jul 09,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/test.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:44 on Jul 09,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/test.sv 
-# -- Compiling module test
-# 
-# Top level modules:
-# 	test
-# End time: 00:09:44 on Jul 09,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/alu.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:44 on Jul 09,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/alu.sv 
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# End time: 00:09:45 on Jul 09,2020, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/cond_logic.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:45 on Jul 09,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/cond_logic.sv 
-# -- Compiling module cond_logic
-# 
-# Top level modules:
-# 	cond_logic
-# End time: 00:09:45 on Jul 09,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/flip_flop_D_neg.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:45 on Jul 09,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/flip_flop_D_neg.sv 
-# -- Compiling module flip_flop_D_neg
-# 
-# Top level modules:
-# 	flip_flop_D_neg
-# End time: 00:09:45 on Jul 09,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/cond_check.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:45 on Jul 09,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/cond_check.sv 
-# -- Compiling module cond_check
-# 
-# Top level modules:
-# 	cond_check
-# End time: 00:09:46 on Jul 09,2020, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/acumulator.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:46 on Jul 09,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/acumulator.sv 
-# -- Compiling module acumulator
-# 
-# Top level modules:
-# 	acumulator
-# End time: 00:09:46 on Jul 09,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus {C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/shifts.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:46 on Jul 09,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus" C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/shifts.sv 
+# Start time: 19:25:26 on Jul 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus" C:/Programas/ArquiII/Proyecto2/quartus/shifts.sv 
 # -- Compiling module shifts
 # 
 # Top level modules:
 # 	shifts
-# End time: 00:09:46 on Jul 09,2020, Elapsed time: 0:00:00
+# End time: 19:25:26 on Jul 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus {C:/Programas/ArquiII/Proyecto2/quartus/deco_hist.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:26 on Jul 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus" C:/Programas/ArquiII/Proyecto2/quartus/deco_hist.sv 
+# -- Compiling module deco_hist
+# 
+# Top level modules:
+# 	deco_hist
+# End time: 19:25:27 on Jul 09,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus {C:/Programas/ArquiII/Proyecto2/quartus/Add_8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:27 on Jul 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus" C:/Programas/ArquiII/Proyecto2/quartus/Add_8.sv 
+# -- Compiling module Add_8
+# 
+# Top level modules:
+# 	Add_8
+# End time: 19:25:27 on Jul 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus {C:/Programas/ArquiII/Proyecto2/quartus/register_file.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:27 on Jul 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus" C:/Programas/ArquiII/Proyecto2/quartus/register_file.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 19:25:27 on Jul 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus {C:/Programas/ArquiII/Proyecto2/quartus/mux_4_x_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:27 on Jul 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus" C:/Programas/ArquiII/Proyecto2/quartus/mux_4_x_1.sv 
+# -- Compiling module mux_4_x_1
+# 
+# Top level modules:
+# 	mux_4_x_1
+# End time: 19:25:27 on Jul 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus {C:/Programas/ArquiII/Proyecto2/quartus/mux_2_x_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:27 on Jul 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus" C:/Programas/ArquiII/Proyecto2/quartus/mux_2_x_1.sv 
+# -- Compiling module mux_2_x_1
+# 
+# Top level modules:
+# 	mux_2_x_1
+# End time: 19:25:27 on Jul 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus {C:/Programas/ArquiII/Proyecto2/quartus/instruction_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:27 on Jul 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus" C:/Programas/ArquiII/Proyecto2/quartus/instruction_memory.sv 
+# -- Compiling module instruction_memory
+# 
+# Top level modules:
+# 	instruction_memory
+# End time: 19:25:27 on Jul 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus {C:/Programas/ArquiII/Proyecto2/quartus/flip_flop_D.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:27 on Jul 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus" C:/Programas/ArquiII/Proyecto2/quartus/flip_flop_D.sv 
+# -- Compiling module flip_flop_D
+# 
+# Top level modules:
+# 	flip_flop_D
+# End time: 19:25:27 on Jul 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus {C:/Programas/ArquiII/Proyecto2/quartus/DataPath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:28 on Jul 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus" C:/Programas/ArquiII/Proyecto2/quartus/DataPath.sv 
+# -- Compiling module DataPath
+# 
+# Top level modules:
+# 	DataPath
+# End time: 19:25:28 on Jul 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus {C:/Programas/ArquiII/Proyecto2/quartus/Control_Unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:28 on Jul 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus" C:/Programas/ArquiII/Proyecto2/quartus/Control_Unit.sv 
+# -- Compiling module Control_Unit
+# 
+# Top level modules:
+# 	Control_Unit
+# End time: 19:25:28 on Jul 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus {C:/Programas/ArquiII/Proyecto2/quartus/Add_pc.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:28 on Jul 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus" C:/Programas/ArquiII/Proyecto2/quartus/Add_pc.sv 
+# -- Compiling module Add_pc
+# 
+# Top level modules:
+# 	Add_pc
+# End time: 19:25:28 on Jul 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus {C:/Programas/ArquiII/Proyecto2/quartus/Add_param.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:28 on Jul 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus" C:/Programas/ArquiII/Proyecto2/quartus/Add_param.sv 
+# -- Compiling module Add_param
+# 
+# Top level modules:
+# 	Add_param
+# End time: 19:25:28 on Jul 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus {C:/Programas/ArquiII/Proyecto2/quartus/data_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:28 on Jul 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus" C:/Programas/ArquiII/Proyecto2/quartus/data_memory.sv 
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+# End time: 19:25:28 on Jul 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus {C:/Programas/ArquiII/Proyecto2/quartus/test.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:28 on Jul 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus" C:/Programas/ArquiII/Proyecto2/quartus/test.sv 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 19:25:29 on Jul 09,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus {C:/Programas/ArquiII/Proyecto2/quartus/alu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:29 on Jul 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus" C:/Programas/ArquiII/Proyecto2/quartus/alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 19:25:29 on Jul 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus {C:/Programas/ArquiII/Proyecto2/quartus/cond_logic.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:29 on Jul 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus" C:/Programas/ArquiII/Proyecto2/quartus/cond_logic.sv 
+# -- Compiling module cond_logic
+# 
+# Top level modules:
+# 	cond_logic
+# End time: 19:25:29 on Jul 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus {C:/Programas/ArquiII/Proyecto2/quartus/flip_flop_D_neg.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:29 on Jul 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus" C:/Programas/ArquiII/Proyecto2/quartus/flip_flop_D_neg.sv 
+# -- Compiling module flip_flop_D_neg
+# 
+# Top level modules:
+# 	flip_flop_D_neg
+# End time: 19:25:29 on Jul 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus {C:/Programas/ArquiII/Proyecto2/quartus/cond_check.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:29 on Jul 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus" C:/Programas/ArquiII/Proyecto2/quartus/cond_check.sv 
+# -- Compiling module cond_check
+# 
+# Top level modules:
+# 	cond_check
+# End time: 19:25:29 on Jul 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus {C:/Programas/ArquiII/Proyecto2/quartus/acumulator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:30 on Jul 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Programas/ArquiII/Proyecto2/quartus" C:/Programas/ArquiII/Proyecto2/quartus/acumulator.sv 
+# -- Compiling module acumulator
+# 
+# Top level modules:
+# 	acumulator
+# End time: 19:25:30 on Jul 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 vsim -gui -l msim_transcript work.test -L altera_mf_ver
 # vsim -gui -l msim_transcript work.test -L altera_mf_ver 
-# Start time: 00:10:09 on Jul 09,2020
+# Start time: 19:26:20 on Jul 09,2020
 # Loading sv_std.std
 # Loading work.test
 # Loading work.DataPath
@@ -233,16 +243,20 @@ vsim -gui -l msim_transcript work.test -L altera_mf_ver
 # Loading work.Add_param
 # Loading work.original_image
 # Loading altera_mf_ver.altsyncram
+# Loading work.new_image
 # Loading work.acumulator
 # Loading work.deco_hist
 # Loading work.Add_8
 # Loading altera_mf_ver.altsyncram_body
 # Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-add wave -position end  sim:/test/DUT/clk
-add wave -position end  sim:/test/DUT/pc
+add wave -position end  sim:/test/clk
+add wave -position end  sim:/test/pc
+add wave -position end  sim:/test/DUT/reg_file/rf
 add wave -position end  sim:/test/DUT/data_m/RAM
 add wave -position end  sim:/test/DUT/ac/mem
-run 1us
-# End time: 00:32:04 on Jul 09,2020, Elapsed time: 0:21:55
+add wave -position end  sim:/test/DUT/data_m2/RAM
+
+run 3us
+# End time: 20:13:59 on Jul 09,2020, Elapsed time: 0:47:39
 # Errors: 0, Warnings: 0

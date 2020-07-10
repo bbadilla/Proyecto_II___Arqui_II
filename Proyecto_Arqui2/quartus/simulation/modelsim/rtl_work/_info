@@ -7,508 +7,530 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/simulation/modelsim
+Z0 dC:/Programas/ArquiII/Proyecto2/quartus/simulation/modelsim
 vacumulator
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1594274986
+!s110 1594344330
 !i10b 1
-!s100 W7S?fHI^gj;o26J;::dd[1
-IN0hW>L_XBPG`I1?g2K>ak2
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s100 <d9m>@;@b@Ma6>gKM<PX@2
+IA=T_Vl=Da_6<1c]2RUX;<2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 !s105 acumulator_sv_unit
 S1
 R0
-Z4 w1594250058
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/acumulator.sv
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/acumulator.sv
+w1594319089
+8C:/Programas/ArquiII/Proyecto2/quartus/acumulator.sv
+FC:/Programas/ArquiII/Proyecto2/quartus/acumulator.sv
 L0 1
-Z5 OV;L;10.5b;63
+Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1594274986.000000
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/acumulator.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/acumulator.sv|
+!s108 1594344330.000000
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/acumulator.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus|C:/Programas/ArquiII/Proyecto2/quartus/acumulator.sv|
 !i113 1
-Z7 o-sv -work work
-Z8 !s92 -sv -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus
-Z9 tCvgOpt 0
+Z4 o-sv -work work
+Z5 !s92 -sv -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus
+Z6 tCvgOpt 0
 vAdd_8
 R1
-Z10 !s110 1594274981
+Z7 !s110 1594344327
 !i10b 1
 !s100 hE7;UIeBGcg<BbU[_9NOo3
-IWE>e`YQH<29W2Pi?01HiU1
-R3
+IcHiLgVeK7<PReG5@dJ1:72
+R2
 !s105 Add_8_sv_unit
 S1
 R0
-w1594103702
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_8.sv
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_8.sv
+Z8 w1594152792
+8C:/Programas/ArquiII/Proyecto2/quartus/Add_8.sv
+FC:/Programas/ArquiII/Proyecto2/quartus/Add_8.sv
 L0 1
-R5
+R3
 r1
 !s85 0
 31
-Z11 !s108 1594274981.000000
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_8.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_8.sv|
+Z9 !s108 1594344327.000000
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/Add_8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus|C:/Programas/ArquiII/Proyecto2/quartus/Add_8.sv|
 !i113 1
-R7
-R8
-R9
+R4
+R5
+R6
 n@add_8
 vAdd_param
 R1
-Z12 !s110 1594274984
+Z10 !s110 1594344328
 !i10b 1
 !s100 R<ldmV=[_53LUb5INag_j0
-I?_M_KKBCBBd98AHQJ<cQ<3
-R3
+Ik;JDi9FcB?41DNVU5b86H3
+R2
 !s105 Add_param_sv_unit
 S1
 R0
-w1594009490
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_param.sv
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_param.sv
+Z11 w1594065861
+8C:/Programas/ArquiII/Proyecto2/quartus/Add_param.sv
+FC:/Programas/ArquiII/Proyecto2/quartus/Add_param.sv
 L0 1
-R5
+R3
 r1
 !s85 0
 31
-Z13 !s108 1594274984.000000
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_param.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_param.sv|
+Z12 !s108 1594344328.000000
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/Add_param.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus|C:/Programas/ArquiII/Proyecto2/quartus/Add_param.sv|
 !i113 1
-R7
-R8
-R9
+R4
+R5
+R6
 n@add_param
 vAdd_pc
 R1
-Z14 !s110 1594274983
+R10
 !i10b 1
 !s100 D7T_l9JFI?]l[a9SG>MGG2
-I@H6<XL;Rh[@:L8`?9o_C=1
-R3
+IObdVQUo:n20JLHe1@k^9O3
+R2
 !s105 Add_pc_sv_unit
 S1
 R0
-w1593834642
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_pc.sv
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_pc.sv
+R11
+8C:/Programas/ArquiII/Proyecto2/quartus/Add_pc.sv
+FC:/Programas/ArquiII/Proyecto2/quartus/Add_pc.sv
 L0 1
-R5
+R3
 r1
 !s85 0
 31
-Z15 !s108 1594274983.000000
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_pc.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Add_pc.sv|
+R12
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/Add_pc.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus|C:/Programas/ArquiII/Proyecto2/quartus/Add_pc.sv|
 !i113 1
-R7
-R8
-R9
+R4
+R5
+R6
 n@add_pc
 valu
 R1
-R12
+Z13 !s110 1594344329
 !i10b 1
 !s100 ]WbEhN7f=KRgkbgT6XfWE1
-IZFP905ZRicWTQ8CFF8kK^3
-R3
+IIJ]J8Fe6Mh@`1I95WhBm>2
+R2
 !s105 alu_sv_unit
 S1
 R0
-w1594274403
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/alu.sv
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/alu.sv
+w1594319464
+8C:/Programas/ArquiII/Proyecto2/quartus/alu.sv
+FC:/Programas/ArquiII/Proyecto2/quartus/alu.sv
 L0 1
-R5
+R3
 r1
 !s85 0
 31
-R13
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/alu.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/alu.sv|
+Z14 !s108 1594344329.000000
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus|C:/Programas/ArquiII/Proyecto2/quartus/alu.sv|
 !i113 1
-R7
-R8
-R9
+R4
+R5
+R6
 vcond_check
 R1
-R2
+R13
 !i10b 1
 !s100 9MI]DNGGkS`P^zU4STMA83
-IjIHf^fY1KE:[6GY1DGFi`2
-R3
+IX?9eSlgd1K0dV7Lg7>aBS3
+R2
 !s105 cond_check_sv_unit
 S1
 R0
-Z16 w1594087686
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/cond_check.sv
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/cond_check.sv
+w1594080701
+8C:/Programas/ArquiII/Proyecto2/quartus/cond_check.sv
+FC:/Programas/ArquiII/Proyecto2/quartus/cond_check.sv
 L0 1
-R5
+R3
 r1
 !s85 0
 31
-Z17 !s108 1594274985.000000
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/cond_check.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/cond_check.sv|
+R14
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/cond_check.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus|C:/Programas/ArquiII/Proyecto2/quartus/cond_check.sv|
 !i113 1
-R7
-R8
-R9
+R4
+R5
+R6
 vcond_logic
 R1
-Z18 !s110 1594274985
+R13
 !i10b 1
 !s100 YZCo79h6ni4=5oFlWa@Bi0
-I^3E:d:_Y<SCM]ZSE`9QhI0
-R3
+IW20Q;OmDhaR9;PdYAkz0C3
+R2
 !s105 cond_logic_sv_unit
 S1
 R0
-R16
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/cond_logic.sv
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/cond_logic.sv
+w1594082402
+8C:/Programas/ArquiII/Proyecto2/quartus/cond_logic.sv
+FC:/Programas/ArquiII/Proyecto2/quartus/cond_logic.sv
 L0 1
-R5
+R3
 r1
 !s85 0
 31
-R17
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/cond_logic.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/cond_logic.sv|
-!i113 1
-R7
-R8
-R9
-vControl_Unit
-R1
 R14
-!i10b 1
-!s100 3TT?VaQ=DQ[]ig?lX^EUD1
-IYRmU00k_?l93ln3UjDY470
-R3
-!s105 Control_Unit_sv_unit
-S1
-R0
-w1594274429
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Control_Unit.sv
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Control_Unit.sv
-L0 1
-R5
-r1
-!s85 0
-31
-R15
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Control_Unit.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/Control_Unit.sv|
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/cond_logic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus|C:/Programas/ArquiII/Proyecto2/quartus/cond_logic.sv|
 !i113 1
-R7
-R8
-R9
-n@control_@unit
-vdata_memory
-R1
-R12
-!i10b 1
-!s100 L;ZEBaiJfNGG?g0N<ijBj1
-IHGfOj`lAnMB5`ZlLRdHB72
-R3
-!s105 data_memory_sv_unit
-S1
-R0
 R4
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/data_memory.sv
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/data_memory.sv
-L0 1
 R5
-r1
-!s85 0
-31
-R13
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/data_memory.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/data_memory.sv|
-!i113 1
-R7
-R8
-R9
-vDataPath
-R1
-R14
-!i10b 1
-!s100 ]j7JdS2jO1a7_;l1=hCPD0
-IdE]@S0ZM2e;HS1><790QZ0
-R3
-!s105 DataPath_sv_unit
-S1
-R0
-w1594273648
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/DataPath.sv
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/DataPath.sv
-L0 1
-R5
-r1
-!s85 0
-31
-R15
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/DataPath.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/DataPath.sv|
-!i113 1
-R7
-R8
-R9
-n@data@path
-vdeco_hist
+R6
+vControl_Unit
 R1
 R10
 !i10b 1
-!s100 amCIg5:3AXOCz1hTzTZYh2
-IkizM@`@6iJ]LmN]C[iNIC0
+!s100 mb>GPC_3i04@>;7bNcjm;2
+ITbh>?beS=I=;>TjR8oHI12
+R2
+!s105 Control_Unit_sv_unit
+S1
+R0
+w1594338369
+8C:/Programas/ArquiII/Proyecto2/quartus/Control_Unit.sv
+FC:/Programas/ArquiII/Proyecto2/quartus/Control_Unit.sv
+L0 1
 R3
+r1
+!s85 0
+31
+R12
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/Control_Unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus|C:/Programas/ArquiII/Proyecto2/quartus/Control_Unit.sv|
+!i113 1
+R4
+R5
+R6
+n@control_@unit
+vdata_memory
+R1
+R10
+!i10b 1
+!s100 L;ZEBaiJfNGG?g0N<ijBj1
+I^lbff[ei>jPWo6zbeRg]k3
+R2
+!s105 data_memory_sv_unit
+S1
+R0
+w1594245154
+8C:/Programas/ArquiII/Proyecto2/quartus/data_memory.sv
+FC:/Programas/ArquiII/Proyecto2/quartus/data_memory.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R12
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/data_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus|C:/Programas/ArquiII/Proyecto2/quartus/data_memory.sv|
+!i113 1
+R4
+R5
+R6
+vDataPath
+R1
+R10
+!i10b 1
+!s100 38@I6?VC?FDA1iZ31T?2?2
+I`d?_1HmM4Xn`3Dbl138C70
+R2
+!s105 DataPath_sv_unit
+S1
+R0
+w1594339134
+8C:/Programas/ArquiII/Proyecto2/quartus/DataPath.sv
+FC:/Programas/ArquiII/Proyecto2/quartus/DataPath.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R12
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/DataPath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus|C:/Programas/ArquiII/Proyecto2/quartus/DataPath.sv|
+!i113 1
+R4
+R5
+R6
+n@data@path
+vdeco_hist
+R1
+R7
+!i10b 1
+!s100 amCIg5:3AXOCz1hTzTZYh2
+If5@BmICG49;=B`eFNEhoV2
+R2
 !s105 deco_hist_sv_unit
 S1
 R0
-w1594101077
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/deco_hist.sv
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/deco_hist.sv
+R8
+8C:/Programas/ArquiII/Proyecto2/quartus/deco_hist.sv
+FC:/Programas/ArquiII/Proyecto2/quartus/deco_hist.sv
 L0 1
-R5
+R3
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/deco_hist.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/deco_hist.sv|
+Z15 !s108 1594344326.000000
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/deco_hist.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus|C:/Programas/ArquiII/Proyecto2/quartus/deco_hist.sv|
 !i113 1
-R7
-R8
-R9
+R4
+R5
+R6
 vflip_flop_D
 R1
-R14
+R7
 !i10b 1
 !s100 IFYjI;J@iX;]dN33A87lo3
-IUf_h635c7SjK9CnzZ2R<o2
-R3
+I?O:@BzFZl7`aICo^OP4FC3
+R2
 !s105 flip_flop_D_sv_unit
 S1
 R0
-w1593834273
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/flip_flop_D.sv
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/flip_flop_D.sv
+R11
+8C:/Programas/ArquiII/Proyecto2/quartus/flip_flop_D.sv
+FC:/Programas/ArquiII/Proyecto2/quartus/flip_flop_D.sv
 L0 1
-R5
+R3
 r1
 !s85 0
 31
-Z19 !s108 1594274982.000000
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/flip_flop_D.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/flip_flop_D.sv|
-!i113 1
-R7
-R8
 R9
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/flip_flop_D.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus|C:/Programas/ArquiII/Proyecto2/quartus/flip_flop_D.sv|
+!i113 1
+R4
+R5
+R6
 nflip_flop_@d
 vflip_flop_D_neg
 R1
-R18
+R13
 !i10b 1
 !s100 bZ7DYM`<;V7fTzP0z<z?H2
-IF0Dik9TgdF5KGMd8HbW^i3
-R3
+I[mG?_cXIH0aW5o[^9hZ?;1
+R2
 !s105 flip_flop_D_neg_sv_unit
 S1
 R0
-R16
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/flip_flop_D_neg.sv
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/flip_flop_D_neg.sv
+w1594095834
+8C:/Programas/ArquiII/Proyecto2/quartus/flip_flop_D_neg.sv
+FC:/Programas/ArquiII/Proyecto2/quartus/flip_flop_D_neg.sv
 L0 1
-R5
+R3
 r1
 !s85 0
 31
-R17
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/flip_flop_D_neg.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/flip_flop_D_neg.sv|
+R14
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/flip_flop_D_neg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus|C:/Programas/ArquiII/Proyecto2/quartus/flip_flop_D_neg.sv|
 !i113 1
-R7
-R8
-R9
+R4
+R5
+R6
 nflip_flop_@d_neg
 vinstruction_memory
 R1
-Z20 !s110 1594274982
+R7
 !i10b 1
-!s100 nozo<]_b02?W@Nm;8URn43
-IUh]WdNmmE>]jHloBcETR:1
-R3
+!s100 5::XV_EXDe^hW1onQLS@c1
+I`b@djB:AJ_g:h:i4dUZEV1
+R2
 !s105 instruction_memory_sv_unit
 S1
 R0
-w1594270122
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/instruction_memory.sv
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/instruction_memory.sv
+w1594344061
+8C:/Programas/ArquiII/Proyecto2/quartus/instruction_memory.sv
+FC:/Programas/ArquiII/Proyecto2/quartus/instruction_memory.sv
 L0 1
-R5
+R3
 r1
 !s85 0
 31
-R19
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/instruction_memory.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/instruction_memory.sv|
-!i113 1
-R7
-R8
 R9
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/instruction_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus|C:/Programas/ArquiII/Proyecto2/quartus/instruction_memory.sv|
+!i113 1
+R4
+R5
+R6
 vmux_2_x_1
 R1
-R20
+R7
 !i10b 1
 !s100 G<;JTn`kdmmm9_GAHdo_g0
-I4UVck5ml0loj:9_IELmdm3
-R3
+IPBMZ7Tf4a1Y]37Zg^EVih2
+R2
 !s105 mux_2_x_1_sv_unit
 S1
 R0
-w1594007383
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/mux_2_x_1.sv
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/mux_2_x_1.sv
+R11
+8C:/Programas/ArquiII/Proyecto2/quartus/mux_2_x_1.sv
+FC:/Programas/ArquiII/Proyecto2/quartus/mux_2_x_1.sv
 L0 1
-R5
+R3
 r1
 !s85 0
 31
-R19
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/mux_2_x_1.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/mux_2_x_1.sv|
-!i113 1
-R7
-R8
 R9
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/mux_2_x_1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus|C:/Programas/ArquiII/Proyecto2/quartus/mux_2_x_1.sv|
+!i113 1
+R4
+R5
+R6
 vmux_4_x_1
 R1
-R20
+R7
 !i10b 1
 !s100 ;oE6GVG>1`M^^Sn6D1[Dk1
-I5@em1BRPm8WGUU0FA0o`F1
-R3
+I3fV4gURP@Y=3>ZiejHTZ80
+R2
 !s105 mux_4_x_1_sv_unit
 S1
 R0
-w1594009184
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/mux_4_x_1.sv
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/mux_4_x_1.sv
+R11
+8C:/Programas/ArquiII/Proyecto2/quartus/mux_4_x_1.sv
+FC:/Programas/ArquiII/Proyecto2/quartus/mux_4_x_1.sv
 L0 1
-R5
-r1
-!s85 0
-31
-R19
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/mux_4_x_1.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/mux_4_x_1.sv|
-!i113 1
-R7
-R8
-R9
-voriginal_image
-!s110 1594274980
-!i10b 1
-!s100 A1R@lNTVY^bofG<V=S;T`2
-I@9M8mQXjX:ni8n<G=PD5`3
 R3
-R0
-w1594250557
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/RAM/original_image.v
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/RAM/original_image.v
-L0 39
-R5
 r1
 !s85 0
 31
-!s108 1594274980.000000
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/RAM/original_image.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/RAM|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/RAM/original_image.v|
-!i113 1
-o-vlog01compat -work work
-!s92 -vlog01compat -work work +incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/RAM
 R9
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/mux_4_x_1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus|C:/Programas/ArquiII/Proyecto2/quartus/mux_4_x_1.sv|
+!i113 1
+R4
+R5
+R6
+vnew_image
+Z16 !s110 1594344326
+!i10b 1
+!s100 40B^]KcO<z;RQK1n:15d:3
+I:=]_iAVJPz[1a`FKEfNNR2
+R2
+R0
+Z17 w1594318028
+8C:/Programas/ArquiII/Proyecto2/quartus/RAM/new_image.v
+FC:/Programas/ArquiII/Proyecto2/quartus/RAM/new_image.v
+Z18 L0 39
+R3
+r1
+!s85 0
+31
+R15
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/RAM/new_image.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus/RAM|C:/Programas/ArquiII/Proyecto2/quartus/RAM/new_image.v|
+!i113 1
+Z19 o-vlog01compat -work work
+Z20 !s92 -vlog01compat -work work +incdir+C:/Programas/ArquiII/Proyecto2/quartus/RAM
+R6
+voriginal_image
+R16
+!i10b 1
+!s100 5a_lVM5d9lW_:ioID6bm=3
+IVCbFmA8C[1`lfje[f<?Z?0
+R2
+R0
+w1594153807
+8C:/Programas/ArquiII/Proyecto2/quartus/RAM/original_image.v
+FC:/Programas/ArquiII/Proyecto2/quartus/RAM/original_image.v
+R18
+R3
+r1
+!s85 0
+31
+R15
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/RAM/original_image.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus/RAM|C:/Programas/ArquiII/Proyecto2/quartus/RAM/original_image.v|
+!i113 1
+R19
+R20
+R6
 vregister_file
 R1
-R20
+R7
 !i10b 1
-!s100 ;edz>RN8miLNeZTF_B<`l1
-Izc_:7_MYSI0nX`oJOk@0k0
-R3
+!s100 A7[2a7^zU`IKL[;mFLNej1
+IkZYW28C4@Wn:_h>3UK;Ua3
+R2
 !s105 register_file_sv_unit
 S1
 R0
-w1594274654
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/register_file.sv
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/register_file.sv
+w1594344268
+8C:/Programas/ArquiII/Proyecto2/quartus/register_file.sv
+FC:/Programas/ArquiII/Proyecto2/quartus/register_file.sv
 L0 1
-R5
+R3
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/register_file.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/register_file.sv|
-!i113 1
-R7
-R8
 R9
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/register_file.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus|C:/Programas/ArquiII/Proyecto2/quartus/register_file.sv|
+!i113 1
+R4
+R5
+R6
 vshifts
 R1
-R2
+R16
 !i10b 1
 !s100 W5OcKQ3CmdAkb>N>k77lh1
-I=?Qj1h[M4cC`bf5XbPo170
-R3
+I[WG>MK_1<ica;H^cZMEWn2
+R2
 !s105 shifts_sv_unit
 S1
 R0
-w1594268995
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/shifts.sv
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/shifts.sv
+R17
+8C:/Programas/ArquiII/Proyecto2/quartus/shifts.sv
+FC:/Programas/ArquiII/Proyecto2/quartus/shifts.sv
 L0 1
-R5
+R3
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/shifts.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/shifts.sv|
+R15
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/shifts.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus|C:/Programas/ArquiII/Proyecto2/quartus/shifts.sv|
 !i113 1
-R7
-R8
-R9
+R4
+R5
+R6
 vtest
 R1
-R12
+R13
 !i10b 1
 !s100 ddMAiE?h6Z7bPJQ1ROgWJ1
-IWNVPU1kzl<UZS_OYPG^^B0
-R3
+IVN7cL@`F;TCRZ_g:;dkd43
+R2
 !s105 test_sv_unit
 S1
 R0
-w1594272291
-8C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/test.sv
-FC:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/test.sv
+w1594244916
+8C:/Programas/ArquiII/Proyecto2/quartus/test.sv
+FC:/Programas/ArquiII/Proyecto2/quartus/test.sv
 L0 2
-R5
+R3
 r1
 !s85 0
 31
-R13
-!s107 C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/test.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus|C:/Users/Bryan/Desktop/GitHub/Proyecto_II___Arqui_II/Proyecto_Arqui2/quartus/test.sv|
+R12
+!s107 C:/Programas/ArquiII/Proyecto2/quartus/test.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Programas/ArquiII/Proyecto2/quartus|C:/Programas/ArquiII/Proyecto2/quartus/test.sv|
 !i113 1
-R7
-R8
-R9
+R4
+R5
+R6

@@ -1,8 +1,18 @@
-module acumulator(input logic clk, we, input logic [15:0] ram[255:0], output logic [127:0] out_ac);
+module acumulator(input logic clk, we, input logic [15:0] ram[255:0], input logic [127:0] data,
+						output logic [127:0] out_ac);
 	
 	logic [15:0] mem[255:0];
 	logic [15:0] adder_out [254:0];
 	Add_param #(16) add_ac(ram[0], ram[1], adder_out[0]);
+	
+	assign out_ac[15:0] = mem[data[7:0]];
+	assign out_ac[31:16] = mem[data[23:16]];
+	assign out_ac[47:32] = mem[data[39:32]];
+	assign out_ac[63:48] = mem[data[55:48]];
+	assign out_ac[79:64] = mem[data[71:64]];
+	assign out_ac[95:80] = mem[data[87:80]];
+	assign out_ac[111:96] = mem[data[103:96]];	
+	assign out_ac[127:112] = mem[data[119:112]];
 
 	
 	genvar i;
