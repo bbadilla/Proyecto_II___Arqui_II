@@ -1,15 +1,29 @@
 import cv2
 import numpy as np
+import sys
 from matplotlib import pyplot as plt
 
-is_gray = 0
+if len(sys.argv) != 3:
+    print("Usage: python mif2img.py <image route> <is gray scale (0, 1)>")
+    sys.exit()
+
+try:
+    is_gray = int(sys.argv[2])
+except:
+    print("Enter a valid gray scale option")
+    sys.exit()
+
+if is_gray != 1 and is_gray != 0:
+    print("Enter a valid gray scale option")
+    sys.exit()
+
+if (not is_gray):
+    A = cv2.imread(sys.argv[1])
+else:
+    A = cv2.imread(sys.argv[1], 0)
 
 size = 256, 256
 m = np.zeros(size, dtype=np.uint8)
-A = cv2.imread('img/lena.jpg', 0)
-
-if len(A.shape) == 2:
-    is_gray = 1
 
 A = cv2.cvtColor(A, cv2.COLOR_BGR2RGB)
 

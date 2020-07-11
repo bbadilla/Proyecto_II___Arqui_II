@@ -1,9 +1,27 @@
 import cv2
+import sys
 
-A = cv2.imread('img/lena.jpg', 0)
+if len(sys.argv) != 3:
+    print("Usage: python img2mif.py <image route> <is gray scale (0, 1)>")
+    sys.exit()
+
+try:
+    is_gray = int(sys.argv[2])
+except:
+    print("Enter a valid gray scale option")
+    sys.exit()
+
+if is_gray != 1 and is_gray != 0:
+    print("Enter a valid gray scale option")
+    sys.exit()
+
+if (not is_gray):
+    A = cv2.imread(sys.argv[1])
+else:
+    A = cv2.imread(sys.argv[1], 0)
 
 
-if (len(A.shape) > 2):
+if (not is_gray):
     print("Is a RGB image, converting to YCbCr...")
     A = cv2.cvtColor(A, cv2.COLOR_BGR2RGB)
     imgYCC = cv2.cvtColor(A, cv2.COLOR_RGB2YCrCb)
