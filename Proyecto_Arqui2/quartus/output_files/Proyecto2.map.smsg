@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at test.sv(15): always construct contains both blocking and non-blocking assignments File: C:/Programas/ArquiII/Proyecto2/quartus/test.sv Line: 15

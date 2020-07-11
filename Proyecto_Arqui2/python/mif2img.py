@@ -1,9 +1,18 @@
 import cv2
 import numpy as np
+from matplotlib import pyplot as plt
 
-size = 256, 256, 3
+is_gray = 0
+
+size = 256, 256
 m = np.zeros(size, dtype=np.uint8)
-A = cv2.imread('img/lena.jpg')
+A = cv2.imread('img/lena.jpg', 0)
+
+if len(A.shape) == 2:
+    is_gray = 1
+
+A = cv2.cvtColor(A, cv2.COLOR_BGR2RGB)
+
 B = A.copy()
 
 with open('test.txt', 'r') as f:
@@ -13,21 +22,45 @@ with open('test.txt', 'r') as f:
             if line != '':
                 l = 0
                 for k in range(2, 32, 4):
-                    m[i, j + l, 0] = int(line[k: k + 2], 16)
+                    m[i, j + l] = int(line[k: k + 2], 16)
                     l += 1
 
-if (len(A.shape) > 2):
-    imgYCC = cv2.cvtColor(A, cv2.COLOR_BGR2YCR_CB)
 
-    m[:, :, 1] = imgYCC[:, :, 1]
-    m[:, :, 2] = imgYCC[:, :, 2]
+histo1 = []
 
-    rgb = cv2.cvtColor(m, cv2.COLOR_YCR_CB2BGR)
+with open('histogram_original.txt', 'r') as f:
+    lines = f.readlines()
+    for line in lines:
+        histo1.append(int(line, 16))
 
-    cv2.imshow('Converted Image', rgb)
+histo2 = []
+
+with open('histogram_equalized.txt', 'r') as f:
+    lines = f.readlines()
+    for line in lines:
+        histo2.append(int(line, 16) * 3)
+
+size = 256, 256, 3
+Z = np.zeros(size, dtype=np.uint8)
+
+if (is_gray):
+    Z[:, :, 0] = m
+    Z[:, :, 1] = m
+    Z[:, :, 2] = m
+
 else:
-    cv2.imshow('Converted Image', m[:, :, 0])
+    imgYCC = cv2.cvtColor(A, cv2.COLOR_RGB2YCrCb)
 
-cv2.imshow('Original Image', B)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+    Z[:, :, 0] = m
+    Z[:, :, 1] = imgYCC[:, :, 1]
+    Z[:, :, 2] = imgYCC[:, :, 2]
+
+    Z = cv2.cvtColor(Z, cv2.COLOR_YCR_CB2RGB)
+
+fig, axs = plt.subplots(2, 2)
+axs[0, 0].imshow(A)
+axs[0, 1].bar(range(256), histo1, width=1)
+axs[1, 0].imshow(Z)
+axs[1, 1].bar(range(256), histo2, width=1)
+
+plt.show()

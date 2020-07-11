@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 
 def comulative(a, arr):
     ac = 0
-    for i in range(a):
+    for i in range(a + 1):
         ac += arr[i]
     return ac
 
@@ -23,14 +23,14 @@ hist, bins = np.histogram(Y.ravel(), 256, [0, 256])
 ac = []
 
 for i in range(256):
-    ac.append(comulative(i,  hist) / (2 ** 16))
+    ac.append(comulative(i,  hist))
 
 size = 256, 256, 3
 Z = np.zeros(size, dtype=np.uint8)
 
 for i in range(256):
     for j in range(256):
-        Z[i, j] = int((ac[Y[i, j]] * 255))
+        Z[i, j] = (ac[Y[i, j]] << 8) >> 16
 
 hist2, bins2 = np.histogram(Z.ravel(), 256, [0, 256])
 
@@ -46,6 +46,3 @@ axs[1, 0].imshow(Z)
 axs[1, 1].bar(bins2[:-1], hist2, width=1)
 
 plt.show()
-
-for i in range(256):
-    print("Hist[{}] = {}".format(i, hist[i]))

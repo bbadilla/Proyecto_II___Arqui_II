@@ -1,14 +1,16 @@
 module DataPath(input logic clk, reset,
-					output logic [17:0] pc, output logic finish);
+					output logic [17:0] pc, output logic finished, output logic [23:0] RGB,
+					output logic vga_hs, vga_vs, blank, vga_clk);
 	
 	logic [17:0] pc_4, instruction, pc_8, ff_8_out, pc_out;
-	logic reg_write, h1_mem_write, h2_mem_write, n_mem_write, pc_src, add1_sel, zero_flag, mem_sel, mux_rst;
+	logic reg_write, h1_mem_write, h2_mem_write, n_mem_write, pc_src, add1_sel, zero_flag, mem_sel, mux_rst, finish;
 	logic [127:0] rd1, rd2, alu_out, mux_out, add1_mux_out, add1_mux_out1, original_im_out;
 	logic [127:0] ac_out, rst_out, mem_mux_out, new_im_out;
 	logic [1:0] alu_control, source, mem_control;
 	logic [14:0] add_8_out;
 	logic	[15:0] rd [255:0];
 	logic	[15:0] rdn [255:0];
+	logic [12:0] vga_counter, mux_vga_out;
 	
 	// PC + 4 adder
 	Add_pc Add1(pc,18'b000000000000000100, pc_4);
@@ -58,7 +60,7 @@ module DataPath(input logic clk, reset,
 	original_image ori_image(alu_out[12:0], clk, 128'b0, 1'b0, original_im_out);
 	
 	// New Image
-	new_image n_image(alu_out[12:0], clk, rd2, n_mem_write, new_im_out);
+	new_image n_image(mux_vga_out, clk, rd2, n_mem_write, new_im_out);
 	
 	// Acumulator
 	acumulator ac(clk, ~h1_mem_write, rd, alu_out, ac_out);
@@ -69,6 +71,18 @@ module DataPath(input logic clk, reset,
 	// Mux Mem
 	mux_4_x_1 #(128) mux_memory(original_im_out, ac_out, new_im_out, 128'b0, mem_control, mem_mux_out);	
 	
+	// VGA Mux
+	mux_2_x_1 #(13) mux_vga(alu_out[12:0], vga_counter, finished, mux_vga_out);
+	
+	// Split
+	split sp(new_im_out, vga_clk, finished, RGB, vga_counter);
+	
+	// VGA
+	VGA video(clk, ~finish, vga_hs, vga_vs, blank, vga_clk);
+	
+	// Finish
+	flip_flop_D_finish #(1) fff(clk, ~finish, 1'b1, 1'b1, finished);
+			
 	
 	
 endmodule

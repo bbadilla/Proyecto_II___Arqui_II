@@ -1,7 +1,7 @@
 `timescale 1 ps / 1 ps
 module test();
 
-	int  fd, fh1, fh2;
+	int  fd, fh1, fh2, fvga;
 	
 	logic [127:0] cur_data;
 	logic [15:0] h1;
@@ -9,7 +9,8 @@ module test();
 
 	logic [17:0] pc;
 	logic clk, reset;
-	logic finish;
+	logic finish, vga_hs, vga_vs, blank, vga_clk;
+	logic [23:0] RGB;
 	
 	always begin
 		 clk <= 1; # 5; clk <= 0; # 5;
@@ -29,16 +30,22 @@ module test();
 				$fdisplay(fh2, "%h", h2);
 				
 			end
+			
+			assign finish = 0;			
+			
 		end
+		$fdisplay(fvga, "CLK = %d, HSYNC = %d, VSYNC = %d, R = %d, G = %d, B = %d",
+								  ~vga_clk, vga_hs, vga_vs, RGB[23:16], RGB[15:8], RGB[7:0]);
 	end
 	
 
-	DataPath DUT(clk, reset, pc, finish);
+	DataPath DUT(clk, reset, pc, finish, RGB, vga_hs, vga_vs, blank, vga_clk);
 
 	initial begin
 		 fd = $fopen("C:\\Programas\\ArquiII\\Proyecto2\\quartus\\mem_out.txt", "w");
 		 fh1 = $fopen("C:\\Programas\\ArquiII\\Proyecto2\\quartus\\histogram_original.txt", "w");
 		 fh2 = $fopen("C:\\Programas\\ArquiII\\Proyecto2\\quartus\\histogram_equalized.txt", "w");
+		 fvga = $fopen("C:\\Programas\\ArquiII\\Proyecto2\\quartus\\out_image.img", "w");
 		 reset <= 1; #5; reset <= 0; #5 reset <= 0;			 
 		
 	end
