@@ -1,0 +1,3 @@
+module pipelined_processor(input logic clk, reset, output logic [17:0] pc);
+
+endmodule 

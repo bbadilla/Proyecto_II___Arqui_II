@@ -1,0 +1,3 @@
+module fetch(input logic [17:0] pc_in, output logic [17:0] instruction);
+
+endmodule 
