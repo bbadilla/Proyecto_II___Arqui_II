@@ -29,7 +29,7 @@ A = cv2.cvtColor(A, cv2.COLOR_BGR2RGB)
 
 B = A.copy()
 
-with open('test.txt', 'r') as f:
+with open('mem_out.txt', 'r') as f:
     for i in range(0, 256):
         for j in range(0, 256, 8):
             line = f.readline()
