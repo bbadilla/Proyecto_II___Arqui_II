@@ -42,10 +42,10 @@ module test();
 	DataPath DUT(clk, reset, pc, finish, RGB, vga_hs, vga_vs, blank, vga_clk);
 
 	initial begin
-		 fd = $fopen("C:\\Programas\\ArquiII\\Proyecto2\\quartus\\mem_out.txt", "w");
-		 fh1 = $fopen("C:\\Programas\\ArquiII\\Proyecto2\\quartus\\histogram_original.txt", "w");
-		 fh2 = $fopen("C:\\Programas\\ArquiII\\Proyecto2\\quartus\\histogram_equalized.txt", "w");
-		 fvga = $fopen("C:\\Programas\\ArquiII\\Proyecto2\\quartus\\out_image.img", "w");
+		 fd = $fopen("C:\\Programas\\ArquiII\\Proyecto2\\quartus\\result\\mem_out.txt", "w");
+		 fh1 = $fopen("C:\\Programas\\ArquiII\\Proyecto2\\quartus\\result\\histogram_original.txt", "w");
+		 fh2 = $fopen("C:\\Programas\\ArquiII\\Proyecto2\\quartus\\result\\histogram_equalized.txt", "w");
+		 fvga = $fopen("C:\\Programas\\ArquiII\\Proyecto2\\quartus\\result\\out_image.img", "w");
 		 reset <= 1; #5; reset <= 0; #5 reset <= 0;			 
 		
 	end
